@@ -24,3 +24,14 @@ umi dev
 umi g page users/'$id'
 生成一个布局文件
 umi g layout ./users/
+生成users文件中的子页面
+umi g page users/_layout
+
+index.js里做点击传值
+pages里做404页面
+
+跟目录下写layouts生成布局页面
+
+layouts中indexjs里做404、login导航卫士
+
+用PrivateRoute做高阶组件，做路由守卫
