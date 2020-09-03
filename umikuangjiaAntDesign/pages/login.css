@@ -1,0 +1,13 @@
+
+.title {
+  background: rgb(242, 121, 193);
+}
+.loginForm{
+  /* width: 50px; */
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+.logo{
+  margin-bottom: 30px;
+}

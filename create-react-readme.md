@@ -23,3 +23,8 @@ https://github.com/streamich/react-use
 这个地方要使用两个api
 1、Provider为后代组件提供store
 2、connect为组件提供数据和变更方法
+
+业界react开发框架
+redux异步解决方案，管理副作用（dom操作、数据获取、浏览器缓存获取） redux-saga 是个中间件
+数据流方案 dva
+企业级框架umi 该框架把saga、dva都整合再一起了

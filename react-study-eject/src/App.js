@@ -27,6 +27,8 @@ import React from 'react'
 // import Button from 'antd/lib/button'
 import "antd/dist/antd.css"
 import ReduxTest from './components/ReduxTest'
+import RouterTest from './components/RouterTest'
+import MyRouteTest from './components/MyRouteTest'
 // export default function App() {
 //     return (
 //         <div>
@@ -50,6 +52,8 @@ function App(props){
             {/* <HocksTest /> */}
             {/* <Button>333</Button> */}
             <ReduxTest/>
+            <RouterTest/>
+            <MyRouteTest/>
         </div>
     )
 }

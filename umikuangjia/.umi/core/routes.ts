@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { ApplyPluginsType } from '/usr/local/lib/node_modules/umi/node_modules/@umijs/runtime';
+import { ApplyPluginsType } from '/Volumes/9/mine/code/react/umikuangjia/node_modules/@umijs/runtime';
 import { plugin } from './plugin';
 
 export function getRoutes() {

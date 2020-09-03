@@ -28,6 +28,10 @@ import {add,minus,asyncAdd} from './../store/counter'
 //参数1:mapStateToProps = (state) => {return {num:state}}
 //参数2:mapDispatchToProps = dispatch => {return {add:()=>dispatch({type:'add'})}}
 //如果store中传入的值是个对象，就用state = {counter:0},那么对应的ReduxTest中 state => ({num:state.counter}),
+//@connect装饰器的作用：state状态更新会自动帮助刷新
+//@connect两个任务
+//1、自动渲染
+//2、映射到组件属性
 @connect(
     state => ({num:state.counter}),
     {// 理解为vuex中的action

@@ -35,4 +35,9 @@ pages里做404页面
 layouts中indexjs里做404、login导航卫士
 
 用PrivateRoute做高阶组件，做路由守卫
-路由login、404不同拦截效果
+
+引入dva
+安装umi-plugin-react
+npm install umi-plugin-react -D
+
+视频看到44.42s
